@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MercadoLoreto|Home</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-product.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
 <body>
     <section class="header">
-        <a href="home.php" class="logo">DIREPRO.</a>
+        <a href="../home.php" class="logo">DIREPRO.</a>
         <nav class="navbar">
             <a href="home.php">Inicio</a>
             <a href="about.php">Nosotros</a>
@@ -23,8 +24,19 @@
     </section>
 
     
- 
-
+    <Section class="product-information">
+        <div class="route">
+            <a href="../home.php"> <i class="fa-solid fa-house"></i> Home </a>
+            <a href="#"><i class="fas fa-angle-right"></i> Nombre de la empresa</a>
+            <a href="#"><i class="fas fa-angle-right"></i> Nombre del producto</a>
+        </div>
+        <div class="product">
+            <div class="box-container">
+                
+            </div>
+        </div>
+    </Section>
+    
     AQUI ESTA EL PRODUCTO
 
 
@@ -70,7 +82,7 @@
     </section>
     <!-- fin footer -->
 
-    <script src="script.js"></script>
+    <script src="/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </body>
 </html>

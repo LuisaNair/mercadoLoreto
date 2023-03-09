@@ -1,0 +1,28 @@
+:root{
+    --main-color: #00b09b;
+    --secundary-color: #96c93d;
+    --middle-color: #4BBC6B;
+    --black: #222;
+    --white: #fff;      
+    --light-black:#777;
+    --light-white:#fff9;
+    --dark-bg:rgba(0,0,0,.7); 
+    --light-bg:#eee;
+    --lemon-green:#428407;
+    --black-green:#203415;
+    --yellow:#FFFF00;
+    --border:.1rem solid var(--black);
+    --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    --text-shadow: 0 1.5rem 3rem rgba(0,0,0,.3);
+    --main-bg: #00b09b; /* fallback for old browsers */
+    --main-bg: -webkit-linear-gradient(to right, #00b09b, #96c93d); /* Chrome 10-25, Safari 5.1-6 */
+    --main-bg: linear-gradient(to right, #00b09b, #96c93d);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+} 
+
+.product-information .route{
+    font-size: 1.5rem;
+    color: var(--light-black);
+}
+.product-information .route:hover{
+    color: var(--black);
+}
