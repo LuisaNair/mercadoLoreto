@@ -68,36 +68,39 @@
     <!-- empieza seccion de Categorias--> 
     <section class="categories">
         <h1 class="heading-title">Categorías</h1>
-        <div class="box-container">
+        <div class="line"></div>
+        <div class="bigbox">
+            
+            <div class="box-container">
+                <div class="box">
+                    <img src="img/icon-abarrotes1.png" alt="">
+                    <h3>abarrotes</h3>
+                </div>
 
-            <div class="box">
-                <img src="img/abarrotes.png" alt="">
-                <h3>abarrotes</h3>
-            </div>
+                <div class="box">
+                    <img src="img/icon-enlatados1.png" alt="">
+                    <h3>Productos enlatados</h3>
+                </div>
 
-            <div class="box">
-                <img src="img/enlatados.png" alt="">
-                <h3>Productos enlatados</h3>
-            </div>
+                <div class="box">
+                    <img src="img/icon-lacteos1.png" alt="">
+                    <h3>lácteos</h3>
+                </div>
 
-            <div class="box">
-                <img src="img/lacteos.png" alt="">
-                <h3>lácteos</h3>
-            </div>
+                <div class="box">
+                    <img src="img/icon-snacks1.png" alt="">
+                    <h3>Snacks</h3>
+                </div>
+                
+                <div class="box">
+                    <img src="img/icon-bebidasylicores1.png" alt="">
+                    <h3>Bebidas y licores</h3>
+                </div>
 
-            <div class="box">
-                <img src="img/snacks.png" alt="">
-                <h3>Snacks</h3>
-            </div>
-             
-            <div class="box">
-                <img src="img/bebidasylicores.png" alt="">
-                <h3>Bebidas y licores</h3>
-            </div>
-
-            <div class="box">
-                <img src="img/saludehigiene.png" alt="">
-                <h3>Salud e Higiene Personal</h3>
+                <div class="box">
+                    <img src="img/icon-saludehigiene1.png" alt="">
+                    <h3>Salud e Higiene Personal</h3>
+                </div>
             </div>
         </div>
     </section>
@@ -117,7 +120,7 @@
 
     <!-- INICIO SECCION ABARROTES -->      
     <section class="category1">
-        <h1>Abarrotes</h1>
+        <h1 class="title-color">Abarrotes</h1>
         <div class="swiper categorySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -206,13 +209,16 @@
             </div>
             <div class="swiper-pagination"></div>
         </div>
-        <div class="view-more"><a href="./pages/category1.php" class="btn">Ver todos</a></div>
+
+        <div class="view-more">
+            <a href="#" class="btn" alt="Ver Todos"></a>
+        </div>
     </section>
 
     
     <!-- SECCION CATEGORIA 2  -->
     <section class="category1">
-        <h1>PRODUCTOS ENLATADOS</h1>
+        <h1 class="title-color">Productos enlatados</h1>
         <div class="swiper categorySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -298,7 +304,7 @@
             </div>
             <div class="swiper-pagination"></div>
         </div>
-        <div class="view-more"><a href="#" class="btn">Ver todos</a></div>
+        <div class="view-more"><a href="#" class="btn" alt="Ver todos"></a></div>
     </section>
 
 
@@ -306,10 +312,12 @@
     <section class="increment">
         <div class="box-container">
             <div class="box">
+                <img src="img/icon-bolsa-compra.png." alt="">
                 <h1>+35</h1>
                 <h3>Productos</h3>
             </div>
             <div class="box">
+                <img src="img/icon-mujer.png" alt="">
                 <h1>+15</h1>
                 <h3>emprendedores</h3>
             </div>
@@ -322,41 +330,44 @@
 
     <!-- SECCION EMPRENDEDORES -->
     <section class="emprendedores">
-        <h1 class="heading-title">Conoce a nuestros emprendedores</h1>
-        <div class="box-container">
-            <div class="box">
-                <div class="image">
-                    <img src="img/heading-suscribete-1.jpg" alt="">
+        <div class="bigbox">
+            <h1 class="heading-title">Conoce a nuestros emprendedores</h1>
+            <div class="line"></div>
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="img/heading-suscribete-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Nombre de la empresa</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, reiciendis cupiditate omnis alias quis voluptate!</p>
+                        <a href="#" class="btn-min">Leer mas</a>    
+                    </div>
                 </div>
-                <div class="content">
-                    <h3>Nombre de la empresa</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, reiciendis cupiditate omnis alias quis voluptate!</p>
-                    <a href="#" class="btn-min">Leer mas</a>    
+                <div class="box">
+                    <div class="image">
+                        <img src="img/heading-suscribete-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Nombre de la empresa</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, reiciendis cupiditate omnis alias quis voluptate!</p>
+                        <a href="#" class="btn-min">Leer mas</a> 
+                        </div>   
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/heading-suscribete-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Nombre de la empresa</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, reiciendis cupiditate omnis alias quis voluptate!</p>
+                        <a href="#" class="btn-min">Leer mas</a>    
+                    </div>
                 </div>
             </div>
-            <div class="box">
-                <div class="image">
-                    <img src="img/heading-suscribete-1.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>Nombre de la empresa</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, reiciendis cupiditate omnis alias quis voluptate!</p>
-                    <a href="#" class="btn-min">Leer mas</a> 
-                    </div>   
+            <div class="load-more">
+                <a href="subs_form.php" class="btn" alt="Leer más"></a>
             </div>
-            <div class="box">
-                <div class="image">
-                    <img src="img/heading-suscribete-1.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>Nombre de la empresa</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, reiciendis cupiditate omnis alias quis voluptate!</p>
-                    <a href="#" class="btn-min">Leer mas</a>    
-                </div>
-            </div>
-        </div>
-        <div class="load-more">
-            <a href="subs_form.php" class="btn">Leer mas</a>
         </div>
     </section>
 
@@ -372,7 +383,7 @@
         <div class="content">
             <h3>Nosotros</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus corporis soluta iusto aliquid? Hic cum, dolorem minus maiores voluptatem illo harum voluptas sunt animi dignissimos alias ullam recusandae quia tempora!</p>
-            <a href="#" class="btn">Leer mas</a>
+            <a href="#" class="btn" alt="Leer más"></a>
         </div>
     </section>
     <!--  FIN SECCION ABOUT US -->
